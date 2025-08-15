@@ -5,16 +5,16 @@ The site is designed to showcase smooth animations, a modern layout, and fully r
 
 ## Features
 
-🚀 Built with React + Vite (fast development and optimized build)
-🎨 Custom vanilla CSS styling with a defined color palette & fonts
-📱 Fully responsive across all devices
-🌀 Smooth scroll animations and transitions
-📍 Embedded Google Maps for contact location
-📑 Policy, Terms, and Cookies pages with enhanced design
-🎥 Video & overlay support for the home hero section
-🍔 Animated hamburger menu with mobile navigation
-🖼️ Featured destinations, testimonials, and about section
-📨 Contact form with basic validation (frontend only, no backend)
+- Built with React + Vite (fast development and optimized build)
+- Custom vanilla CSS styling with a defined color palette & fonts
+- Fully responsive across all devices
+- Smooth scroll animations and transitions
+- Embedded Google Maps for contact location
+- Policy, Terms, and Cookies pages with enhanced design
+- Video & overlay support for the home hero section
+- Animated hamburger menu with mobile navigation
+- Featured destinations, testimonials, and about section
+- Contact form with basic validation (frontend only, no backend)
 
 
 ## Tech Stack
