@@ -3,7 +3,7 @@
 This project is a responsive, frontend-only traveling website built with React + Vite as part of my Internship Week #2 Task in Pakistan.
 The site is designed to showcase smooth animations, a modern layout, and fully responsive pages across all devices focusing on UI/UX, interactivity, and clean design.
 
-- Live Video Demo: 
+- Live Video Demo: https://www.linkedin.com/posts/waleed-khattak_react-vite-frontenddevelopment-activity-7362153298314907649-yDtN?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEPCkV8BYxUZN8osx29RtG_vpVi0MtfL2_A
 
 ## Features
 
