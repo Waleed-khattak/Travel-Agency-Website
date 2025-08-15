@@ -34,6 +34,6 @@ npm run dev
 
 ## Notes
 
-- This is a frontend-only project — no backend integration.
+- This is a frontend-only project no backend integration.
 - The goal is to focus on beautiful UI, smooth animations, and responsiveness.
 - Task completed as part of Internship Training Program, Week #2.
