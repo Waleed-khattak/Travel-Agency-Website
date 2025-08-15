@@ -1,0 +1,93 @@
+:root {
+  /* Color Scheme per Requirements */
+
+  --c1: #B1F0F7;
+  /* light cyan */
+  --c2: #81BFDA;
+  /* teal-blue */
+  --c3: #F5F0CD;
+  /* soft cream */
+  --c4: #FADA7A;
+  /* warm yellow */
+  --text: #0f172a;
+  --muted: #475569;
+  --bg: #ffffff;
+  --radius: 16px;
+  --shadow: 0 10px 30px rgba(0, 0, 0, .08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body{
+  height: 100%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+body {
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  margin: 0;
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  width: min(1100px, 92%);
+  margin-inline: auto;
+}
+
+/* SECTIONS */
+.section {
+  padding: clamp(2.5rem, 6vw, 4rem) 0;
+}
+
+.section.alt {
+  background: linear-gradient(180deg, #fff 0, #fff 40%, var(--c3) 100%);
+}
+
+.section-title {
+  font-family: Poppins, Inter, sans-serif;
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  margin: 0 0 1.4rem;
+}
+
+/* ANIMATIONS */
+.reveal {
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity .8s ease, transform .8s ease;
+}
+
+.reveal.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.delay-1 {
+  transition-delay: .3s;
+}
+
+.delay-2 {
+  transition-delay: .5s;
+}
+
+/* UTILS */
+.no-scroll {
+  overflow: hidden;
+}
